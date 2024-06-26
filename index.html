@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Data Visualization</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="cc_12.js" defer></script>
+</head>
+<body>
+    <h1>Stock Data Visualization</h1>
+    <label for="stockFilter">Stock:</label>
+    <select id="stockFilter">
+        <option value="">All</option>
+    </select>
+    <label for="startDateFilter">Start Date:</label>
+    <input type="date" id="startDateFilter">
+    <label for="endDateFilter">End Date:</label>
+    <input type="date" id="endDateFilter">
+
+    <svg id="chart" width="600" height="600"></svg>
+</body>
+</html>
